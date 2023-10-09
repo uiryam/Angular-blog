@@ -1,15 +1,46 @@
+
+<div class="conteiner__button">
+  <a [routerLink]="['']"> << VOLTAR </a>
+</div>
 <div class="conteiner__content">
-  <div class="content__cover">
-    <img src="{{ photoCover }}" alt="">
+  <div class="conteiner__notice">
+    <div class="content__cover">
+      <img src="{{ photoCoverMain }}" alt="">
+    </div>
+    <div class="content__title">
+      <h1> {{ contentTitleMain }} </h1>
+    </div>
+    <div>
+      <hr />
+    </div>
+    <div class="content__description">
+      <P> {{ contentDescriptionMain }} </P>
+    </div>
   </div>
-  <div class="content__title">
-    <h1> {{ contentTitle }} </h1>
-  </div>
-  <div>
-    <hr />
-  </div>
-  <div class="content__description">
-    <a [routerLink]="['']"> << VoLTAR </a>
-    <P> {{ contentDescription }} </P>
+  <div class="conteiner__small-card">
+      <app-small-card
+      Id="1"
+      photoCover="https://miro.medium.com/v2/resize:fit:828/format:webp/1*qgo4_MwETtxdspEqt12sNA.png"
+      cardTitle="Angular 16 lançado com melhorias de desempenho e novos recursos"
+    ><a href="/content/1"></a>
+    </app-small-card>
+    <app-small-card
+      Id="2"
+      photoCover="https://media.licdn.com/dms/image/D4D22AQEBx-hM83HZ-g/feedshare-shrink_800/0/1683029483979?e=1699488000&v=beta&t=4rWVuQBlVopi3AXpEzgna66MAiASzUz57uipMfEoqDA"
+      cardTitle="Como testar aplicações web com o Angular e o Jest"
+    >
+    </app-small-card>
+    <app-small-card
+      Id="3"
+      photoCover="https://i.ytimg.com/vi/KQg219XhAXo/maxresdefault.jpg"
+      cardTitle="Como usar o Angular Material para criar interfaces de usuário modernas e responsivas"
+    >
+    </app-small-card>
+    <app-small-card
+      Id="4"
+      photoCover="https://img-c.udemycdn.com/course/750x422/1585996_1c0f_2.jpg"
+      cardTitle="Como integrar o Angular com o Firebase para criar aplicações web em tempo real"
+    >
+    </app-small-card>
   </div>
 </div>

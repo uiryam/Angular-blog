@@ -1,13 +1,27 @@
 .conteiner__content {
-  width: 100%;
-  height: 100vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.conteiner__button{
+  margin-top: 20px;
+}
+
+.conteiner__button a {
+  margin: 20px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
+.conteiner__notice {
+  width: 60%;
   display: flex;
   flex-direction: column;
-
   align-items: center;
-
-  margin-top: 20px;
+  margin-right: 30px;
 }
 
 .content__cover img {
@@ -16,11 +30,22 @@
   border-radius: 5px;
 }
 
+.content__title {
+  text-align: center;
+}
+
 .content__description{
   margin-top: 15px;
 }
 
 .content__description p {
-  margin-top: 20px;
+  margin: 20px;
   color: lightgray;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.conteiner__small-card {
+  width: 35%;
+  font-size: 5px;
 }

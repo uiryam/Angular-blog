@@ -1,5 +1,5 @@
 .container__big-card{
-  margin-right: 15px;
+  margin-right: 30px;
   margin-left: 15px;
   width: 600px;
   height: 500px;
@@ -22,7 +22,9 @@
 
 .big-card__photo img{
   display: flex;
+  justify-content: flex;
   align-items: center;
-  width: 80%;
+  margin: auto;
+  width: 60%;
   min-width: 490px;
 }

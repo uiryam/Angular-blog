@@ -21,6 +21,8 @@
 }
 
 .big-card__photo img{
-  width: 100%;
-  min-width: 590px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  min-width: 490px;
 }
